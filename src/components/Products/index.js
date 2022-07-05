@@ -12,7 +12,7 @@ import { ProductsContainer,
 } from './ProductsElements';
 
 const Products = ({ heading, items }) => {
-    const [image, asin, title, full_link, price, rank ] = items;
+    // const [image, asin, title, full_link, price, rank ] = items;
   return (
     <ProductsContainer>
         <ProductsHeading>{heading}</ProductsHeading>
@@ -20,12 +20,12 @@ const Products = ({ heading, items }) => {
                 {items.map((item, index) => {
                     return (
                 <ProductCard key={index}>
-                    <ProductImg src={image} alt={asin}/>
+                    <ProductImg src={item.image} alt={item.asin}/>
                     <ProductInfo>
-                        <ProductTitle>{title}</ProductTitle>
-                        <ProductDesc>{full_link}</ProductDesc>
-                        <ProductPrice>{price}</ProductPrice>
-                        <ProductButton>{rank}</ProductButton>
+                        <ProductTitle>{item.title}</ProductTitle>
+                        <ProductDesc>{item.full_link}</ProductDesc>
+                        <ProductPrice>{item.prices.current_price}</ProductPrice>
+                        <ProductButton>{item.rank}</ProductButton>
                     </ProductInfo>
                 </ProductCard>
                     )

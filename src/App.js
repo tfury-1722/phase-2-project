@@ -17,25 +17,17 @@ function App() {
   };
 
   useEffect(() => {
-     return fetch(
+      fetch(
       "https://amazon-products1.p.rapidapi.com/bestseller?country=US&categoryId=165793011",
       options
     )
       .then((promise) => promise.json())
-      .then(({ response }) => {
-        console.log(response);
-        setDisplayItems({
-          title: response.title,
-          asin: response.asin,
-          full_link: response.full_link,
-          image: response.image,
-          price: response.price.curren_price,
-          out_of_stock: response.out_of_stock,
-          rank: response.rank,
-        }).catch((err) => console.error(err));
-      }),
-      [displayItems];
-  });
+      .then(( { results } ) => {
+        
+        setDisplayItems([...results])
+        
+      }).catch((err) => console.error(err));
+  }, []);
 
   return (
     <Router>
