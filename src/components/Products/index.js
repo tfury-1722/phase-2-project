@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { ProductsContainer,
     ProductWrapper,
     ProductsHeading,
@@ -11,13 +11,30 @@ import { ProductsContainer,
     ProductButton
 } from './ProductsElements';
 
-const Products = ({ heading, items }) => {
+const Products = ({ heading }) => {
     // const [image, asin, title, full_link, price, rank ] = items;
+    const [displayItems, setDisplayItems] = useState([]);
+
+    useEffect(() => {
+        fetch('http://localhost:8000/trending', {
+          method: 'GET',
+          headers: {
+            'Content-type': 'application/json',
+            'Accept': 'application/json'
+          }
+        })
+        .then(promise => promise.json())
+        .then(( trending ) => {        
+          setDisplayItems([...trending].slice(0,3))
+        })
+        .catch((err) => console.error(err));
+      }, [])
+
   return (
     <ProductsContainer>
         <ProductsHeading>{heading}</ProductsHeading>
             <ProductWrapper>
-                {items.map((item, index) => {
+                {displayItems.map((item, index) => {
                     return (
                 <ProductCard key={index}>
                     <ProductImg src={item.image} alt={item.asin}/>

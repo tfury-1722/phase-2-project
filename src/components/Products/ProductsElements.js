@@ -19,8 +19,8 @@ export const ProductCard = styled.div`
     width: 300px;
 `;
 export const ProductImg = styled.img`
-    height: 300px;
-    min-width: 300px;
+    height: .5 em;
+    min-width: .5 em;
     max-width: 100%;
     box-shadow: 8px 8px #fdc500;
 `;
@@ -30,23 +30,23 @@ export const ProductsHeading = styled.h1`
     margin-bottom: 5rem;
 `;
 export const ProductTitle = styled.h2`
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 100;
+    font-size: 16px;
 `;
 export const ProductInfo = styled.div`
     display: flex;
     flex-directon: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: .1 rem;
     text-align: center;
 `;
 export const ProductDesc = styled.p`
     margin-bottom: 1rem;
 `;
 export const ProductPrice = styled.p`
-    margin-bottom: 1rem;
-    font-size: 2rem;
+    margin-bottom: .1 rem;
+    font-size: .3 rem;
 `
 export const ProductButton = styled.button`
     font-size: 1rem;

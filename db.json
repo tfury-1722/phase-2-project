@@ -1,0 +1,131 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "trending": [
+    {
+      "id": 1,
+      "asin": "B07R2CNSTK",
+      "full_link": "https://www.amazon.com/dp/B07R2CNSTK",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/8176vIPgJYL._AC_UL302_SR302,200_.jpg",
+      "out_of_stock": false,
+      "prices": { "currency": "$", "current_price": 28.97 },
+      "reviews": { "total_reviews": 35310, "stars": 4.7 },
+      "title": "Bentgo Kids Prints (Camouflage) - Leak-Proof, 5-Compartment Bento-Style Kids Lunch Box"
+    },
+    {
+      "id": 2,
+      "asin": "B00PKNO7LK",
+      "full_link": "https://www.amazon.com/dp/B00PKNO7LK",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81s5xmM+7GL._AC_UL302_SR302,200_.jpg",
+      "out_of_stock": false,
+      "prices": { "currency": "$", "current_price": 17.79 },
+      "reviews": { "total_reviews": 30197, "stars": 4.6 },
+      "title": "Bentgo® Kids Leak-Proof, 5-Compartment Bento-Style Kids Lunch Box"
+    },
+    {
+      "id": 3,
+      "asin": "B085KTB1WY",
+      "full_link": "https://www.amazon.com/dp/B085KTB1WY",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71eJVMT75OL._AC_UL302_SR302,200_.jpg",
+      "out_of_stock": false,
+      "prices": { "currency": "$", "current_price": 13.99 },
+      "reviews": { "total_reviews": 105487, "stars": 4.8 },
+      "title": "LeapFrog 100 Animals Book (Frustration Free Packaging), Pink"
+    },
+    {
+      "id": 4,
+      "asin": "B08CVV9RBT",
+      "full_link": "https://www.amazon.com/dp/B08CVV9RBT",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81LhtkKJqDL._AC_UL302_SR302,200_.jpg",
+      "out_of_stock": false,
+      "prices": { "currency": "$", "current_price": 29.99 },
+      "reviews": { "total_reviews": 7633, "stars": 4.6 },
+      "title": "Bentgo® Kids Chill Lunch Box"
+    },
+    {
+      "id": 5,
+      "asin": "B0B694FX5F",
+      "full_link": "https://www.amazon.com/dp/B0B694FX5F",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/915LSDmEErL._AC_UL302_SR302,200_.jpg",
+      "out_of_stock": false,
+      "prices": { "currency": "$", "current_price": 17.82 },
+      "reviews": { "total_reviews": 0, "stars": -1 },
+      "title": "Pack"
+    },
+    {
+      "id": 6,
+      "asin": "B08VLGDFY8",
+      "full_link": "https://www.amazon.com/dp/B08VLGDFY8",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71DOQOer5fL._AC_UL302_SR302,200_.jpg",
+      "out_of_stock": false,
+      "prices": { "currency": "$", "current_price": -1 },
+      "reviews": { "total_reviews": 3958, "stars": 4.1 },
+      "title": " Aerobie Sonic Fin Football"
+    },
+    {
+      "id": 7,
+      "asin": "B09X94NXF1",
+      "full_link": "https://www.amazon.com/dp/B09X94NXF1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41Yql1kbWRL._AC_UL302_SR302,200_.jpg",
+      "out_of_stock": false,
+      "prices": { "currency": "$", "current_price": 24.99 },
+      "reviews": { "total_reviews": 9511, "stars": 4.7 },
+      "title": "Self-Sealing Rapid-Filling Water Bunch of Balloons, 450 balloons"
+    },
+    {
+      "id": 8,
+      "asin": "B08Z3TGRKZ",
+      "full_link": "https://www.amazon.com/dp/B08Z3TGRKZ",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61wErxYniXL._AC_UL302_SR302,200_.jpg",
+      "out_of_stock": false,
+      "prices": { "currency": "$", "current_price": 14.98 },
+      "reviews": { "total_reviews": 4061, "stars": 4.4 },
+      "title": "ORSEN Colorful 8.5 inch LCD Writing Tablet, Doodle Board Drawing"
+    },
+    {
+      "id": 9,
+      "asin": "B08GYRSHSZ",
+      "full_link": "https://www.amazon.com/dp/B08GYRSHSZ",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91DPt37D3GL._AC_UL302_SR302,200_.jpg",
+      "out_of_stock": false,
+      "prices": { "currency": "$", "current_price": 24.99 },
+      "reviews": { "total_reviews": 7477, "stars": 4.8 },
+      "title": "Bentgo Kids Prints Lunch Bag"
+    },
+    {
+      "id": 10,
+      "asin": "B009CAPYR8",
+      "full_link": "https://www.amazon.com/dp/B009CAPYR8",
+      "image": "ttps://images-na.ssl-images-amazon.com/images/I/81J5rM1aKwL._AC_UL302_SR302,200_.jpg",
+      "out_of_stock": false,
+      "prices": { "currency": "$", "current_price": 20.99 },
+      "reviews": { "total_reviews": 21581, "stars": 4.8 },
+      "title": "Play-Doh Modeling Compound 24-Pack Case of Colors, (Amazon Exclusive)"
+    },
+    {
+      "id": 11,
+      "asin": "B0B57CMVFY",
+      "full_link": "https://www.amazon.com/dp/B0B57CMVFY",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41Yql1kbWRL._AC_UL302_SR302,200_.jpg",
+      "out_of_stock": false,
+      "prices": { "currency": "$", "current_price": 7.44 },
+      "reviews": { "total_reviews": 7859, "stars": 4.6 },
+      "title": "Bunch's of Balloons 450 Ballon Set Rapid-Filling SelfSealing"
+    }
+  ]
+}
